@@ -10,7 +10,7 @@ body {
        display: flex;
        align-items: center;
    }
-   /* header contenr style  */
+   /* header content style  */
    .header-content {
        font-size: 64px;
        color: #ffffff;
@@ -20,14 +20,22 @@ body {
     width: 556.01px;
     height: 438px;
    }
-   .link{
+   /* button style  */
+   .button{
       position: absolute;
-      width: 168px;
       height: 44px;
+      width: 168px;
+      padding: 10px 24px;
       left: 156px;
-      top: 490px;
+      top: 464px;
       background: #E02C6D;
       border: none;
-     color: #ffffff;
-
+      color: #ffffff;
+      margin-top: 27px;
+      transition: width 1s linear;
    }
+   .button:hover {
+     background-color: brown;
+     width: 300px;
+   }
+   
