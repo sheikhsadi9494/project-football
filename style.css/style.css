@@ -116,6 +116,9 @@ body {
  /*-----------------
  media query
  --------------  */
+ /*------------- 
+  mobile divies 
+ ---------------*/
  @media only screen and (max-width:480px){
      .header-container {
         display: flex;
