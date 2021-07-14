@@ -1,0 +1,33 @@
+/* body style  */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+   /* header-container  */
+   .header-container {
+       height: 677px;
+       background-color: #2D25A0;
+       display: flex;
+       align-items: center;
+   }
+   /* header contenr style  */
+   .header-content {
+       font-size: 64px;
+       color: #ffffff;
+       margin-left: 156px;
+   }
+   .header-content  img {
+    width: 556.01px;
+    height: 438px;
+   }
+   .link{
+      position: absolute;
+      width: 168px;
+      height: 44px;
+      left: 156px;
+      top: 490px;
+      background: #E02C6D;
+      border: none;
+     color: #ffffff;
+
+   }
