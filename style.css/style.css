@@ -38,7 +38,7 @@ body {
      background-color: brown;
      width: 300px;
    }
-   /* player list style */
+   /* players information */
    .players {
        display: grid;
        grid-template-columns: repeat(3,1fr);
@@ -66,3 +66,51 @@ body {
        color: #6C6C6C;
        font-size: 16px;
    }
+   /* cup blog style  */
+     .cup-container {
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+     }
+   /* about foot ball */
+   .about-football {
+       display: flex;
+   }
+   .football-images {
+       width: 100%;
+   }
+   .football-blog {
+       margin: 60px;
+   }
+   .link {
+       background-color: rgb(122, 184, 28);
+       color: white;
+       text-decoration: none;
+       padding: 16px 24px;
+       position: relative;
+       top: 30px;
+   }
+   /* footer style */
+   .footer-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 56px;
+       margin-top: 100px;
+   }
+   .footer-logo img{
+    width: 483.87px;
+    height: 110px;
+   }
+   .footer-icons {
+      margin-bottom: 20px;
+   }
+ .fab,.fas {
+     width: 32px;
+     text-align: center;
+     color: lightgray;
+ }
+ .footer-text {
+     font-size: 18px;
+ }
+
+   
